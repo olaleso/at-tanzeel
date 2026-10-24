@@ -1,0 +1,15 @@
+{
+  "name": "nuraspecs-attanzeel-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent school portal concept using fictional data",
+  "scripts": {
+    "test": "node --check public/app.js && node tests/logic.cjs"
+  },
+  "devDependencies": {
+    "linkedom": "0.18.14"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}

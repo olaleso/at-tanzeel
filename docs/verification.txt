@@ -1,0 +1,24 @@
+PASS Incorrect password rejected
+PASS Administrator sign-in
+PASS Every page renders for every permitted role
+PASS Student directory filtering
+PASS Result validation and calculation
+PASS Teacher cannot publish; administrator can
+PASS Partial payment updates balance and produces receipt
+PASS Failed payment leaves ledger unchanged
+PASS Parent cannot pay another student invoice
+PASS Attendance persists by date
+PASS Hostel release and reallocation preserve occupancy
+PASS Notice content escapes markup
+PASS Protected menu navigation blocked in demo
+PASS Export excludes another child in parent view
+Completed application logic checks. DOM simulation only; not a browser visual test.
+
+Additional checks:
+- JavaScript syntax check passed.
+- Proposal: 11 pages, rendered to images and visually inspected; no clipping or overlap observed.
+- PDF includes NuraSpecs public contact details and no prices.
+- Portal PDF link is bundled as proposal.pdf.
+
+Verification limit:
+The in-app browser could not connect to the local HTTP preview servers. The application checks above use a simulated DOM, not a full browser. Visual/responsive browser QA and a real Cloudflare deployment smoke test remain to be completed after upload. No live deployment, payment integration, secure authentication or email sending has been performed.
