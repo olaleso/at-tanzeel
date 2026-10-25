@@ -22,3 +22,5 @@ Additional checks:
 
 Verification limit:
 The in-app browser could not connect to the local HTTP preview servers. The application checks above use a simulated DOM, not a full browser. Visual/responsive browser QA and a real Cloudflare deployment smoke test remain to be completed after upload. No live deployment, payment integration, secure authentication or email sending has been performed.
+
+25 October 2026: Logo-led espresso/indigo palette and single email/password sign-in. 16 DOM checks pass, including routing all six demo accounts, unknown account rejection and logout. Browser visual inspection unavailable: local file URL blocked by preview browser policy.
